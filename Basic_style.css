@@ -1,5 +1,5 @@
 body{
-    backround-color: #fff;
+    background-color: #fff;
 }
 
 
@@ -11,14 +11,18 @@ h1{
 .container{
     width: 450px;
     height: 450px;
-    background-color: #faedbd7;
+    background-color: #faedb7;
     border: 2px solid black;
     border-radius: 5%;
 }
 /*----------------------------------------------
     SELECT ALL SQUARES IN THE ARRAY
 ----------------------------------------------*/
+<<<<<<< Updated upstream
 .container  .squares: nth-child(-N+4){
+=======
+.container .squares:NTH-CHILD(-N+4){
+>>>>>>> Stashed changes
     BACKGROUND-IMAGE: URL("../images/icons.png");
     color:#fff;
     float: left;
@@ -62,7 +66,7 @@ h1{
     HOVER, TRANSLATE & TRANSITION EFFECTS
 ---------------------------------------------*/
 .container .squares:nth-child(-n+4):hover{
-    background-image: url("../images/icons.png/");
+    background-image: url("../images/icons.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
