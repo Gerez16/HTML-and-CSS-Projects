@@ -18,11 +18,9 @@ h1{
 /*----------------------------------------------
     SELECT ALL SQUARES IN THE ARRAY
 ----------------------------------------------*/
-<<<<<<< Updated upstream
-.container  .squares: nth-child(-N+4){
-=======
+
 .container .squares:NTH-CHILD(-N+4){
->>>>>>> Stashed changes
+
     BACKGROUND-IMAGE: URL("../images/icons.png");
     color:#fff;
     float: left;
