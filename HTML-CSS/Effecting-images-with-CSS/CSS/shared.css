@@ -39,7 +39,7 @@ height: 2px;
 width: 150px;
 background: #e91c1c;
 margin: 5px auto 40px;
-boz-shadow: 5px 2px 3px rgba(0,0,0,0.5);
+box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
 h2{
     line-height: 50px;
@@ -137,7 +137,7 @@ container-fluid{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    backgrounde-size: cover;
+    background-size: cover;
     width: 100%;
     display: block;
     height: auto;
@@ -315,22 +315,22 @@ container-fluid{
         font-size: 28px;
     }
  }
-@medeia all and (max-width: 381px) and (min-width: 200px) {
+@media all and (max-width: 381px) and (min-width: 200px) {
     .head-main{
         font-size: 24px;
     }
 }
-@medeia (max-width: 768px) {
+@media (max-width: 768px) {
     .container{
         width: 750px;
     }
 }
-@medeia (max-width: 992px) {
+@media (max-width: 992px) {
     .container{
         width: 970px;
     }
 }
-@medeia (max-width: 1200px) {
+@media (max-width: 1200px) {
     .container{
         width: 1170px;
     }
@@ -421,7 +421,7 @@ container-fluid{
     cursor: pointer;
 }
 .photo-overlay:hover{
-    :opacity: 1;
+    opacity: 1;
 }
 .photo img {
     transition: transform .5s;
